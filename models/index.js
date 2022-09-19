@@ -17,14 +17,16 @@ Product.belongsToMany(Product, {
   through: {
     model: ProductTag,
     unique: false
-  }
+  },
+  as: 'product_tags'
   })
 // Tags belongToMany Products (through ProductTag)
-Tag.belongsToMany(Cart, {
+Tag.belongsToMany(Product, {
   through: {
     model: ProductTag,
     unique: false
-  }
+  },
+  as: 'tags_products'
 })
 
 module.exports = {
