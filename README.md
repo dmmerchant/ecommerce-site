@@ -5,6 +5,7 @@
 
 This is a back end for an e-commerce site. By utilizing an ORM (sequelize) and a mysql database, a user can perform basic CRUD operations.   A  many to many relationship allows for tags to be applied to a multitude of products easily.
 
+[![Application Demonstration](https://i.imgur.com/vKb2F1B.png)](https://drive.google.com/file/d/1tmLgy3x_ezdII9MXp9UKPxl4NZ4uzgpF/view)
 
 
 ## Table of Contents
